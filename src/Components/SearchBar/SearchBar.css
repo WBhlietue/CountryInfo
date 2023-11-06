@@ -1,0 +1,21 @@
+.searchBar {
+    width: 90vw;
+    height: 30px;
+    border: 2px black solid;
+    border-radius: 1000px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.searchBar-input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+.searchBar-btn {
+    width: 100px;
+    height: 100%;
+    background-color: blue;
+    cursor: pointer;
+}

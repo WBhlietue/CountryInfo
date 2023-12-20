@@ -47,7 +47,7 @@ export default function CountryAbout() {
                 setFifa(data[0].fifa);
                 setCapital(data[0].capital);
                 setTimeZones(data[0].timezones);
-                setMap(data[0].maps);
+                setMap(data[0].map);
             });
         });
     }, []);
@@ -119,7 +119,7 @@ export default function CountryAbout() {
                         res.json().then((data) => {
                             console.log(data);
                         })
-                        window.location.reload();
+                        // window.location.reload();
                     });
                 }}
             >

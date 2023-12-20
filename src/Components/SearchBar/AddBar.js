@@ -9,6 +9,7 @@ export default function AddBar(props) {
         ).then((res) => {
             res.json().then((data) => {
                 console.log(data);
+                console.log(data[0].languages[0]);
                 if (data.status == 404) {
                     alert("Error");
                 } else {

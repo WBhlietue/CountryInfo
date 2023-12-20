@@ -6,6 +6,7 @@ export default function CountryCard(props) {
     }, []);
     return (
         <div className="CountryCard" onClick={() => {
+            console.log(props.data);
             window.location = "?view=country&name="+props.data.cca2;
         }}>
             <div className="CountryCard-flag">

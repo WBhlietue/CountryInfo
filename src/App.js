@@ -7,6 +7,9 @@ import ViewPanel from "./Components/ViewPanel/ViewPanel";
 
 function App() {
     const searchParams = new URLSearchParams(window.location.search);
+    useEffect(() => {
+
+    }, [])
     if (searchParams.get("view") == "country") {
         return (
             <div>
